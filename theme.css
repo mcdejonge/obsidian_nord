@@ -1,4 +1,3 @@
-
 :root
 {
     --dark0_x:  46,52,64; /* #2e3440 */
@@ -97,14 +96,16 @@ body
     --text-faint:                    var(--light0);
     --text-muted:                    var(--light1);
 
-    --link-url:                      var(--purple);
+    --link-url:                      var(--red);
 
-    --h1-color:                      var(--red);
-    --h2-color:                      var(--yellow);
-    --h3-color:                      var(--green);
+    --h1-color:                      var(--frost1);
+    --h2-color:                      var(--frost2);
+    --h3-color:                      var(--frost3);
     --h4-color:                      var(--purple);
-    --h5-color:                      var(--frost0);
-    --h6-color:                      var(--frost2);
+    --h5-color:                      var(--purple);
+    --h6-color:                      var(--purple);
+    --link-external-color:           var(--frost2);
+    --link-color:                    var(--frost2);
 
     --text-highlight-bg:             var(--frost1);
     --text-highlight-fg:             var(--dark0);
@@ -118,10 +119,10 @@ body
 
     --titlebar-text-color-focused:   var(--red);
 
-    --inline-title-color:            var(--yellow);
+    --inline-title-color:            var(--light2);
 
-    --bold-color:                    var(--yellow);
-    --italic-color:                  var(--yellow);
+    --bold-color:                    var(--text-normal);
+    --italic-color:                  var(--text-normal);
 
     --checkbox-color:                var(--frost0);
     --checkbox-color-hover:          var(--frost0);
